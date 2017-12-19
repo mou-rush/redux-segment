@@ -4,11 +4,19 @@
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
 declare namespace ReduxSegment {
+
+    /**
+     * Optional config options for `createTracker`.
+     */
+    interface ICustomMapper {
+        skipDefaultMapping?: boolean;
+        mapper?: any;
+    };
     /**
      * Creates the tracker middleware for injection like so:
      *  compose(applyMiddleware(thunkMiddleware, loggerMiddleware, trackerMiddleware);
      */
-    function createTracker():any;
+    function createTracker(customOptions?: ICustomMapper):any;
 
     /**
      * Convenience string enum for configuring segment event types. Consolidates magic strings.
