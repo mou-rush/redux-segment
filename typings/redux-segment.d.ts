@@ -11,7 +11,7 @@ declare namespace ReduxSegment {
     interface ICustomMapper {
         skipDefaultMapping?: boolean;
         mapper?: any;
-    };
+    }
     /**
      * Creates the tracker middleware for injection like so:
      *  compose(applyMiddleware(thunkMiddleware, loggerMiddleware, trackerMiddleware);
