@@ -69,3 +69,21 @@ redux-segment.js
 # Notes
 *.txt
 
+# Images
+logo.png
+segment.gif
+
+# Tests
+test
+
+# Build config
+circle.yml
+
+# Transpiler presets
+.babelrc
+
+# Examples
+examples
+
+# Editor configuration preset
+.editorconfig
