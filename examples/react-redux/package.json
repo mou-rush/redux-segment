@@ -85,6 +85,6 @@
     "winston": "^2.1.1"
   },
   "dependencies": {
-    "redux-segment": "^0.6.1"
+    "redux-segment": "^0.7.2"
   }
 }
